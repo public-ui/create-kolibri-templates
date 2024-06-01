@@ -29,8 +29,10 @@ const defineContainer = (name, defineCustomElement, componentProps = [], modelPr
         const eventsNames = Array.isArray(modelUpdateEvent) ? modelUpdateEvent : [modelUpdateEvent];
         eventsNames.forEach((eventName) => {
           el.addEventListener(eventName.toLowerCase(), (e) => {
-            modelPropValue = (e?.target)[modelProp];
-            emit(UPDATE_VALUE_EVENT, modelPropValue);
+            if (e.target.tagName === el.tagName) {
+              modelPropValue = (e?.target)[modelProp];
+              emit(UPDATE_VALUE_EVENT, modelPropValue);
+            }
           });
         });
       }
