@@ -1,6 +1,5 @@
 node_modules/
 
-# /*/.vscode/
 /*/.reports/
 /*/build/
 /*/dist/
@@ -18,9 +17,3 @@ node_modules/
 /*/**/assets/kolibri.png
 /*/**/assets/kolibri.svg
 /*/public/assets/logo.*
-# /*/.editorconfig
-# /*/.eslintignore
-# /*/.gitignore
-# /*/.npmrc
-# /*/.prettierignore
-# /*/.prettierrc.json

@@ -12,35 +12,33 @@
 			<strong class="text-2xl">Willkommen zu KoliBri</strong>
 		</header>
 		<main class="grid md:grid-cols-2 gap-6 p-12">
-			<KolAlert :_type="'success'" _heading="Dokumentation" _variant="card" :_level="2">
-				<KolLink _href="https://public-ui.github.io/" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-sharp fa-solid fa-book" /> Dokumentation öffnen
-				</KolLink>
+			<KolAlert _type="success" _label="Dokumentation" _variant="card" :_level="2">
+				<KolLink _href="https://public-ui.github.io/" _icons="fa-sharp fa-solid fa-book" _label="Dokumentation öffnen" _target="_blank" />
 			</KolAlert>
-			<KolAlert :_type="'info'" _heading="Theming" _variant="card" :_level="2">
-				<KolLink _href="https://public-ui.github.io/docs/concepts/styling/designer" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-solid fa-palette" /> KoliBri-Designer öffnen
-				</KolLink>
+			<KolAlert _type="info" _label="Theming" _variant="card" :_level="2">
+				<KolLink
+					_href="https://public-ui.github.io/docs/concepts/styling/designer"
+					_icons="fa-solid fa-palette"
+					_label="KoliBri-Designer öffnen"
+					_target="_blank"
+				/>
 			</KolAlert>
-			<KolAlert :_type="'warning'" _heading="Mitwirken" _variant="card" :_level="2">
-				<KolLink _href="https://github.com/public-ui/kolibri/" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-brands fa-github" /> GitHub öffnen
-				</KolLink>
+			<KolAlert _type="warning" _label="Mitwirken" _variant="card" :_level="2">
+				<KolLink _href="https://github.com/public-ui/kolibri/" _icons="fa-brands fa-github" _label="GitHub öffnen" _target="_blank" />
 			</KolAlert>
-			<KolAlert :_type="'error'" _heading="Kontakt" _variant="card" :_level="2">
-				<KolLink _href="mailto:kolibri@itzbund.de" _label="" _target="_blank"> <KolIcon _label="" _icons="fa-solid fa-envelope" /> E-Mail schreiben </KolLink>
+			<KolAlert _type="error" _label="Kontakt" _variant="card" :_level="2">
+				<KolLink _href="mailto:kolibri@itzbund.de" _icons="fa-solid fa-envelope" _label="E-Mail schreiben" _target="_blank" />
 			</KolAlert>
 		</main>
 	</div>
 </template>
 
 <script lang="ts">
-import { KolKolibri, KolIcon, KolLink, KolAlert } from '@public-ui/vue';
+import { KolKolibri, KolLink, KolAlert } from '@public-ui/vue';
 
 export default {
 	components: {
 		KolKolibri,
-		KolIcon,
 		KolLink,
 		KolAlert,
 	},

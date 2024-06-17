@@ -2,27 +2,26 @@
 	"name": "@public-ui/library-react",
 	"description": "React framework adapter for KoliBri - The accessible HTML-Standard.",
 	"version": "0.0.0",
-	"license": "MIT",
-	"private": true,
+	"license": "UNLICENSED",
 	"scripts": {
 		"build": "unbuild",
 		"prepack": "unbuild"
 	},
 	"devDependencies": {
-		"@public-ui/library-components": "0.0.0",
+		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
 		"@types/node": "ts5.3",
 		"@types/normalize-package-data": "2.4.4",
-		"@types/react": "18.2.65",
-		"@types/react-dom": "18.2.21",
+		"@types/react": "18.3.3",
+		"@types/react-dom": "18.3.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"typescript": "5.4.3",
-		"unbuild": "2.0.0"
+		"typescript": "5.4.5",
+		"unbuild": "1.2.1"
 	},
 	"peerDependencies": {
-		"@public-ui/library-components": "0.0.0",
+		"@public-ui/library-components": "workspace:*",
 		"react": ">=16.14.0",
 		"react-dom": ">=16.14.0"
 	},

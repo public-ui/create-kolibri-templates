@@ -1,13 +1,7 @@
 {
 	"name": "static-page",
 	"version": "0.0.0",
-	"description": "description",
-	"author": {
-		"name": "Martin Oppitz",
-		"email": "6279703+deleonio@users.noreply.github.com"
-	},
 	"license": "UNLICENSED",
-	"private": true,
 	"scripts": {
 		"prepare": "npm-run-all prepare:*",
 		"prepare:components-assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
@@ -15,11 +9,11 @@
 		"start": "serve"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.0.9",
-		"@public-ui/themes": "2.0.9",
+		"@public-ui/components": "2.1.2",
+		"@public-ui/themes": "2.1.2",
 		"cpy-cli": "5.0.0",
-		"npm-check-updates": "16.14.17",
+		"npm-check-updates": "16.14.20",
 		"npm-run-all": "4.1.5",
-		"serve": "14.2.1"
+		"serve": "14.2.3"
 	}
 }
