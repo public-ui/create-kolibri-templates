@@ -28,7 +28,7 @@
 		"@unocss/preset-uno": "0.58.9",
 		"@unocss/webpack": "0.58.9",
 		"ajv": "8.16.0",
-		"chromedriver": "125.0.3",
+		"chromedriver": "126.0.1",
 		"cpy-cli": "5.0.0",
 		"cross-env": "7.0.3",
 		"eslint-plugin-jsx-a11y": "6.8.0",
