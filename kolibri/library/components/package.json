@@ -21,7 +21,7 @@
 		"clear": "rimraf dist doc loader www",
 		"format": "prettier --check src",
 		"lighthouse": "lighthouse --chrome-flags=\"--headless\" --output-path lighthouse.report.html --preset=desktop --quiet",
-		"lint": "tsc --noemit && eslint src",
+		"xlint": "tsc --noemit && eslint src",
 		"start": "cross-env NODE_ENV=development stencil build --dev --serve --watch --no-open",
 		"dev": "cross-env NODE_ENV=development stencil build --prod --watch",
 		"test": "cross-env NODE_ENV=test stencil test --spec --json --outputFile jest-test-results.json",
@@ -35,7 +35,7 @@
 		"adopted-style-sheets": "1.1.4"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.0.9",
+		"@public-ui/components": "2.0.8",
 		"@stencil/angular-output-target": "0.8.4",
 		"@stencil/core": "4.12.5",
 		"@stencil/react-output-target": "0.5.3",

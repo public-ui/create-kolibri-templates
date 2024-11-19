@@ -41,7 +41,7 @@
 		"unbuild": "2.0.0"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "^2.0.5"
+		"@public-ui/components": "2.0.8"
 	},
 	"sideEffects": false,
 	"type": "module",

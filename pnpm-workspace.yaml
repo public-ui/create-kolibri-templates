@@ -1,3 +1,4 @@
+hoist: false
 packages:
   - 'csr/angular-webpack/'
   - 'csr/preact-webpack/'
